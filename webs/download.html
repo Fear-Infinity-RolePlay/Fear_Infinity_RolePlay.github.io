@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Download Page Mobile📱</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+  <link rel="stylesheet" href="./download.css">
+  <style>
+    /* Add your custom styles here */
+  </style>
+</head>
+<body>
+  <div class="back-arrow">
+    <a href="../index.html" onclick="window.history.back();">
+      <img src="../media/back-arrow.png" alt="Back Arrow">
+    </a>
+  </div>
+  
+  <div class="error-msg">
+    <span>
+      <h1>[Fear Infinity RolePlay FiveM]</h1>
+      <p>Download Game File and the Multiplayer Launcher</p>
+      <a href="https://fivem.net/" class="main4_dc_button"><button>Download FiveM Launcher</button></a>
+      <a href="https://vallhalla-roleplay-stores.tebex.io/" class="main4_dc_button"><button>Tebex Webstore Buy FI Coin</button></a>
+    </span>
+  </div>
+
+  <script>
+    // JavaScript to redirect mobile users
+    if (/Mobi/.test(navigator.userAgent)) {
+      window.location.href = 'errordow.html'; // Redirect to error page
+    }
+  </script>
+
+</body>
+</html>
